@@ -20,7 +20,7 @@ model = LinearRegression()
 # Train the model
 model.fit(X_train, y_train)
 
-# Make predictions
+# Make prediction
 y_pred = model.predict(X_test)
 
 # Evaluate the model
